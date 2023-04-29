@@ -1,0 +1,164 @@
+body {
+    background: #FBFBFB;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.ogr {
+    margin: 0 auto;
+    max-width: 770px;
+    width: 82%;
+    position: relative;
+    overflow: hidden;
+}
+
+.arf {
+    width: 100%;
+    margin: 20px 0 16px 0;
+}
+
+.arf h3, .novoe {
+    display: inline;
+}
+
+.novoe {
+    margin-left: 10px;
+    min-width: 50px;
+    padding: 1px 7px;
+    border: 1px solid #1890FF;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: 20%;
+    color: #1890FF;
+}
+
+.logo {
+    margin: 54px 0 32px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo svg {
+    width: 114px;
+    height: 24px;
+}
+
+.bashka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bashka p {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 16px;
+    color: #515759;
+}
+
+.razdel h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.razdel p {
+    font-size: 16px;
+    color: #515759;
+}
+
+.kartinka {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    padding-top: 16px;
+    border-top: 1px solid rgba(214, 215, 217, 0.8);
+    font-size: 14px;
+    color: #949494;
+}
+
+footer a {
+    color: #1890FF;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.razdel {
+    margin-bottom: 50px;
+}
+
+.copy {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 2500px) {
+    .cont {
+        width: 100%;
+        max-width: 1280px;
+    }
+
+    .kartinka {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .logo svg {
+        width: 181px;
+        height: 36px;
+    }
+
+    .novoe {
+        font-size: 18px;
+    }
+
+    .bashka p {
+        font-size: 24px;
+    }
+
+    .razdel h3 {
+        font-size: 36px;
+    }
+
+    .razdel p {
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .logo {
+        margin: 22px 0 15px 0;
+    }
+
+    .bashka p {
+        margin-bottom: 15px;
+    }
+
+    .arf {
+        margin: 5px 0 8px 0;
+    }
+
+    .razdel {
+        margin-bottom: 25px;
+    }
+
+    .razdel p {
+        font-size: 13px;
+    }
+
+    .razdel h3 {
+        font-size: 20px;
+    }
+}
